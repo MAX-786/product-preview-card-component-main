@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot(11).jpg)
+![](./screenshot.jpg)
 
 
 
