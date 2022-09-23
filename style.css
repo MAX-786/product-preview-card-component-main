@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Card */
+
+.card {
+    overflow: hidden;
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 28.125rem;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 375px) {
+    .card {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+}
+
+
+/* Card Right side : image */
+
+#Image {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Card Left side : content*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem;
+    justify-content: space-around;
+    flex: 1 1 0;
+}
+
+h3 {
+    font-size: 0.75rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.3125rem;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.1875rem;
+    margin-bottom: 1.625rem;
+    line-height: 0.9;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+}
+
+.prices {
+    margin: 0.9375rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.offer-price {
+    font-family: 'Fraunces', serif;
+    font-size: 2.1875rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.original-price {
+    font-size: 0.9375rem;
+    margin-left: 0.9375rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    background: hsl(158, 36%, 37%);
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: hsl(158, 33%, 18%);
+}
+
+.btn img {
+    margin-right: 0.625rem;
+}
